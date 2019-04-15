@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');
+
+body {
+    color: #515151;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 55px;
+}
+.main-menu {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-position: center;
+}
+.main-menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    height: 50px;
+}
+h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    padding: 30 auto;
+    text-align: center;
+}
+.latest-news-paragraph {
+    font-family: 'Open Sans', sans-serif;
+    color: #555252;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+.latest-news-header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.product-list-name {
+    text-transform: uppercase;
+    color: white;
+    background-color: #323232;
+}
+.main-menu {
+    width: 1100px;
+    padding: 0px;
+    text-align: center;
+}
+.main-menu li {
+    float: right;
+    margin-left: 35px;
+    margin-top: 8px;
+}
+.main-menu li a:hover {
+    color: #1abc9c;
+}
+.site-logo {
+    float: left;
+    margin-left: 35px;
+}
+.main-nav {
+    display: inline-block;
+    margin-bottom: 110px;
+    margin-top: 38px;
+    text-align: center;
+}
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.dollar::before {
+    content: "\0024";
+} 
+.underline::after {
+    content: "";
+    width: 165px;
+    height: 5px;
+    background-color: #1abc9c;
+    float: left;
+    margin: 32px 540px;
+}
+.product-list-item {
+    float: left;
+    margin: 15px;
+}
+.product-list {
+    display: inline-block;
+    width: 1140px;
+    background-size: cover;
+}
+section {
+    background-size: cover;
+}
+
+.product-list-name {
+    float: left;
+    width: 172px;
+    padding: 12px 14px;
+    margin: 0;
+}
+.dollar {
+    float: right;
+    width: 26px;
+    background-color: #8c8c8c;
+    padding: 12px 14px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.product-list-name:hover {
+    background-color: #1abc9c;
+}
+.dollar:hover {
+    background-color: #1abc9c;
+}
+.underline .latest-news-title {
+    margin-top: 106px;
+}
+
+.latest-news {
+    display: inline-block;
+    width: 1140px;
+    background-size: cover;
+
+}
+.latest-news-list {
+    float: left;
+    margin: 15px;
+    width: 350px;
+}
+.latest-news-header::after {
+    content: "";
+    width: 137px;
+    height: 2px;
+    background-color: #1abc9c;
+    float: left;
+    margin-right: 210px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.latest-news-paragraph {
+    padding: 14px 0;
+}
+.butt {
+    border-radius: 5px;
+    padding: 18px 43px;
+    background-color: #4ec6ab;
+    color: white;
+    font-size: 14px;
+}
