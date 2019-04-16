@@ -1,96 +1,101 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-* {
-    margin: 0;
-    padding: 0;
+html {
     box-sizing: border-box;
 }
-.task3, .butt, a {
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Playfair Display', serif;
     color: #626262;
+    font-size: 14px;
+    line-height: 23px;
 }
-a:hover {
-    color: #03a9f4;
+.contaner {
+    width: 901px;
+    margin: 0 auto;
 }
-.task1 ul li a {
+.site-navigation {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    display: inline-block;
+    width: 901px;
+    text-align: center;
+    vertical-align: middle;
+}
+.page-nav {
+    padding: 75px 0;
+    margin-bottom: 28px;
+}
+.site-navigation li {
+    display: inline-block;
+
+}
+.site-navigation li:not(:last-child) {
+    margin-right: 95px;
+}
+.site-navigation a {
+    text-transform: uppercase;
     text-decoration: none;
 }
-.task1 ul {
-    text-align: center;
-    margin-top: 45px;
-    margin-bottom: 85px;
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #25b4f5;
 }
-.task1 ul li {
-    display: inline-block;
+.product-list {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    list-style: none;
+}
+.product-list-item h3 {
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.category {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
-    padding: 15px;
-    text-align: center;
-    cursor: pointer;
-    margin-right: 60px;
-    margin-left: 60px;
+    padding: 28px 0px;
+    color: #b4ad9e;
 }
-
-.task3 .card {
-    width: 470px;
-    margin: 0 auto;
-    padding: 20px;
-}
-.task3 .category{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
-    margin: 30px 0;
-}
-.task3 h2{
-    font-style: 30px;
-    font-weight: 400;
-    margin: 30px 0;
-    font-size: 30px;
-}
-.task3 .description {
+.description {
     font-size: 14px;
     font-family: 'Playfair Display', serif;
+    color: #8c8c8c;
 }
-.task3 {
-    margin-top: 50px;
-    width: 950px;
-    margin: 0 auto;
-}
-.task3 .card {
-    display: inline-block;
-}
-.task3 .card .background {
+.product-list-item {
     width: 420px;
-    height: 280px;
-    margin: 0 auto;
-    background-size: cover;
-    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-right: 55px;
+    margin-bottom: 135px;
 }
-.control{
-    text-align: center;
-    margin-top: 60px;
+.product-list-item:nth-child(2n) {
+    margin-right: 0;
 }
-.butt{
-    padding: 20px 36px 20px 36px;
+.product-list-item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+}
+.load-button {
+    border: 0,5px solid #6c6c6c;
+    margin: 0;
+    padding: 18px 32px;
+    min-width: 164px;
+    height: 60px;
     font-size: 20px;
     background-color: white;
-    border: 0.5px solid black;
+    color: #626262;
+    margin-top: 58px;
+    margin-bottom: 70px;
+    line-height: 17px;
+    cursor: pointer;
 }
-#card-1 {
-    background-image: url(../IMG/11.jpg);
+.control {
+    text-align: center;
 }
-#card-2{
-    background-image: url(../IMG/22.jpg);
-}
-#card-3{
-    background-image: url(../IMG/01.jpg)
-}
-#card-4{
-    background-image: url(../IMG/02.jpg);
-}
-#card-5{
-    background-image: url(../IMG/03.jpg);
-}
-#card-6{
-    background-image: url(../IMG/04.jpg);
-}
+  

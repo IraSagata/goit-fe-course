@@ -3,63 +3,65 @@
   <head>
     <meta charset="UTL-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="task1">
-      <nav>
-        <ul>
-          <li>
-            <a href="#card1">lifestyle</a>
-          </li>
-          <li><a href="#card3">photodiary</a></li>
+    <header class="main-header contaner">
+      <nav class="page-nav">
+        <ul class="site-navigation">
+          <li><a href="">lifestyle</a></li>
+          <li><a href="">photodiary</a></li>
           <li><a href="">music</a></li>
           <li><a href="">travel</a></li>
       </ul>
     </nav>
   </header>
-      <main class="task3">
-        <section>
-        <article class="card">
-          <div id="card-1" class="background"></div>
-          <p class="category">Lifestyle</p>
-          <h2>More then just a music festival</h2>
-          <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti non ab illum, molestiae possimus officiis facilis sunt et dignissimos minima sed totam reprehenderit autem dolor iusto rem labore</p>
-        </article>
-        <article class="card">
-            <div id="card-2" class="background"></div>
+      <main class="contaner">
+        <article>
+        <ul class="product-list">
+          <li class="product-list-item">
+            <img src="IMG/11.jpg" alt="someone" width="420px" height="280px">
             <p class="category">Lifestyle</p>
-            <h2>Life tastes better with coffee</h2>
-            <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti non ab illum, molestiae possimus officiis facilis sunt et dignissimos minima sed totam reprehenderit autem dolor iusto rem labore</p>
-        </article>
-        <article class="card">
-            <div id="card-3" class="background"></div>
-            <p class="category">photodiary</p>
-            <h2>American dreem</h2>
-            <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti non ab illum, molestiae possimus officiis facilis sunt et dignissimos minima sed totam reprehenderit autem dolor iusto rem labore</p>
-        </article>
-        <article class="card">
-            <div id="card-4" class="background"></div>
-            <p class="category">photodiary</p>
-            <h2>A day exploring the Alps</h2>
-            <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti non ab illum, molestiae possimus officiis facilis sunt et dignissimos minima sed totam reprehenderit autem dolor iusto rem labore</p>
-        </article>
-        <article class="card">
-            <div id="card-5" class="background"></div>
-            <p class="category">Lifestyle</p>
-            <h2>Top 10 song for running</h2>
-            <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti non ab illum, molestiae possimus officiis facilis sunt et dignissimos minima sed totam reprehenderit autem dolor iusto rem labore</p>
-        </article>
-        <article class="card">
-            <div id="card-6" class="background"></div>
-            <p class="category">Lifestyle</p>
-            <h2>Cold winter days</h2>
-            <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti non ab illum, molestiae possimus officiis facilis sunt et dignissimos minima sed totam reprehenderit autem dolor iusto rem labore</p>
-        </article>
-      </section>
-    </main>
-    <div class="control">
-        <button class="butt">Load more</button>
-    </div>
+            <h3>More then just a music festival</h3>
+            <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti non ab illum, molestiae possimus officiis facilis sunt et dignissimos minima sed totam reprehenderit autem dolor iusto</p></li>
+          <li class="product-list-item">
+              <img src="IMG/22.jpg" alt="someone" width="420px" height="280px">
+              <p class="category">Lifestyle</p>
+              <h3>Life tastes better with coffee</h3>
+              <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti non ab illum, molestiae possimus officiis facilis sunt et dignissimos minima sed totam reprehenderit autem dolor iusto</p>  
+          </li>
+          <li class="product-list-item">
+              <img src="IMG/01.jpg" alt="someone" width="420px" height="280px">
+              <p class="category">photodiary</p>
+              <h3>American dreem</h3>
+              <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti non ab illum, molestiae possimus officiis facilis sunt et dignissimos minima sed totam reprehenderit autem dolor iusto</p>
+          </li>
+          <li class="product-list-item">
+              <img src="IMG/02.jpg" alt="someone" width="420px" height="280px">
+              <p class="category">photodiary</p>
+              <h3>A day exploring the Alps</h3>
+              <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti non ab illum, molestiae possimus officiis facilis sunt et dignissimos minima sed totam reprehenderit autem dolor iusto</p>
+          </li>
+          <li class="product-list-item">
+              <img src="IMG/03.jpg" alt="someone" width="420px" height="280px">
+              <p class="category">Lifestyle</p>
+              <h3>Top 10 song for running</h3>
+              <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti non ab illum, molestiae possimus officiis facilis sunt et dignissimos minima sed totam reprehenderit autem dolor iusto</p>
+          </li>
+          <li class="product-list-item">
+              <img src="IMG/04.jpg" alt="someone" width="420px" height="280px">
+              <p class="category">Lifestyle</p>
+              <h3>Cold winter days</h3>
+              <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti non ab illum, molestiae possimus officiis facilis sunt et dignissimos minima sed totam reprehenderit autem dolor iusto</p>  
+          </li>
+        </ul>
+      </article>
+      <div class="control">
+          <button class="load-button">Load more</button>
+      </div>
+  </main>
+  </body>
 </html>
