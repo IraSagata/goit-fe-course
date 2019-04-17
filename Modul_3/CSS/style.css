@@ -17,11 +17,15 @@ body{
     margin: 0 auto;
 }
 .site-navigation {
+    font-size: 0;
+}
+.site-navigation {
     margin: 0;
     padding: 0;
     list-style: none;
     font-size: 14px;
-    display: inline-block;
+    display: block;
+    /*display: inline-block;*/
     width: 901px;
     text-align: center;
     vertical-align: middle;
@@ -50,16 +54,20 @@ body{
     margin: 0;
     font-size: 0;
     list-style: none;
+    margin-bottom: 57px;
 }
 .product-list-item h3 {
     font-size: 30px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+img {
+    margin-bottom: 32px;
 }
 .category {
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
-    padding: 28px 0px;
+    margin-bottom: 30px;
     color: #b4ad9e;
 }
 .description {
@@ -72,7 +80,7 @@ body{
     margin: 0;
     padding: 0;
     display: inline-block;
-    margin-right: 55px;
+    margin-right: 60px;
     margin-bottom: 135px;
 }
 .product-list-item:nth-child(2n) {
@@ -83,18 +91,17 @@ body{
 }
 .load-button {
     border: 0,5px solid #6c6c6c;
-    margin: 0;
     padding: 18px 32px;
-    min-width: 164px;
     height: 60px;
     font-size: 20px;
     background-color: white;
     color: #626262;
-    margin-top: 58px;
-    margin-bottom: 70px;
     line-height: 17px;
     cursor: pointer;
+    display: block;
+    width: 164px;
+    margin: 0 auto;
 }
-.control {
-    text-align: center;
+section {
+    padding-bottom: 70px;
 }
