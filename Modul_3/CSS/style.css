@@ -18,15 +18,10 @@ body{
 }
 .site-navigation {
     font-size: 0;
-}
-.site-navigation {
     margin: 0;
     padding: 0;
     list-style: none;
     font-size: 14px;
-    display: block;
-    /*display: inline-block;*/
-    width: 901px;
     text-align: center;
     vertical-align: middle;
 }
@@ -44,6 +39,8 @@ body{
 .site-navigation a {
     text-transform: uppercase;
     text-decoration: none;
+    display: block;
+    font-size: 14px;
 }
 .site-navigation a:hover,
 .site-navigation a:focus {
