@@ -21,7 +21,6 @@ body{
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: 14px;
     text-align: center;
     vertical-align: middle;
 }
@@ -31,7 +30,6 @@ body{
 }
 .site-navigation li {
     display: inline-block;
-
 }
 .site-navigation li:not(:last-child) {
     margin-right: 95px;
