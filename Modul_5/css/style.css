@@ -273,25 +273,25 @@ h3::after {
     content: "";
     width: 48px;
     height: 48px; 
-    background-image: url(/img/ICONS/basket.png);
+    background-image: url(../img/ICONS/basket.png);
     background-repeat: no-repeat;
     background-position: center; 
 }
   
 .icon-arrow {
-    background-image: url(/img/ICONS/arrow.png);
+    background-image: url(../img/ICONS/arrow.png);
     background-repeat: no-repeat;
     background-position: center;
 }
   
 .icon-clock {
-    background-image: url(/img/ICONS/clock.png);
+    background-image: url(../img/ICONS/clock.png);
     background-repeat: no-repeat;
     background-position: center;
 }
   
 .icon-heart {
-    background-image: url(/img/ICONS/heart.png);
+    background-image: url(../img/ICONS/heart.png);
     background-repeat: no-repeat;
     background-position: center;
 }
