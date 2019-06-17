@@ -1,0 +1,204 @@
+/*header*/
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+.container {
+    /*width: 320px;*/
+    margin: 0 auto;
+}
+header {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    min-height: 450px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/main_img.jpg);
+    font-style: 0;
+    margin-bottom: 70px;
+}
+.wrapper {
+    /*display: flex;
+    justify-content: center;
+    flex-wrap: wrap;*/
+
+}
+.main-header {
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 942px;
+    min-height: 114px;
+    margin: 0 auto;
+    margin-bottom: 110px;*/
+}
+.site-logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.site-navigation {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+}
+.site-navigation-link {
+    box-sizing: border-box;
+    height: 36px;
+    width: 90px;
+    border: inherit;
+    border-radius: 22px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 22px;
+}
+.main-item {
+    flex-shrink: 0;
+}
+.first-link:hover,
+.second-link:hover{
+    border: 2px solid #fff;
+}
+.section-header {
+    text-align: center;
+}
+.main-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+}
+.main-paragraph {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #f2edec;
+}
+
+.first-button {
+    font-family: "Montserrat", sans-serif;
+    height: 44px;
+    width: 280px;
+    background-color: #ff4e50;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+/*main*/
+.service-item {
+    text-align: center;
+    width: 220px;
+    margin-bottom: 25px;
+}
+.service-title {
+    font-family: "Montserrat", sans-serif;;
+    font-size: 22px;
+    text-align: center;
+}
+.service-item img {
+    position: relative;
+    border-radius: 50%;
+    width: 122px;
+    height: 122px;
+    margin: 0 auto;
+}
+.service-item div {
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 122px;
+    height: 122px;   
+}
+.service-item div::before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-sizing: content-box;
+    z-index: 2;
+}
+.television::before {
+    background-image: url(../img/icons/icon_1.png);
+    background-color: #ff4e50;
+}
+.cup-of-coffee::before {
+    background-image: url(../img/icons/icon.png);
+    background-color:#ffa507;
+}
+.probirka::before {
+    background-image: url(../img/icons/icon3.png);
+    background-color:#1cd7ad;
+}
+.telegram::before {
+    background-image: url(../img/icons/icon4.png);
+    background-color:#4e73db;
+}
+.item-title {
+    padding-top: 20px;
+    padding-bottom: 16px;
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.item-desc {
+    font-size: 14px;
+    color: #c2c2c2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.second-button{
+    display: block;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border: 2px solid #ff4e50;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #ff4e50;
+    height: 44px;
+    width: 280px;
+    margin: 0 auto;
+}
+    
+    
