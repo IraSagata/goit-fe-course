@@ -52,7 +52,9 @@ header {
     height: 36px;
     width: 90px;
     border: inherit;
+    border: 2px solid transparent;
     border-radius: 22px;
+    list-style-type: none;
     cursor: pointer;
     font-size: 14px;
     font-weight: 400;
