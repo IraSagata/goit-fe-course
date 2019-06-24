@@ -1,0 +1,98 @@
+@media (min-width:320px) and (max-width:767px) {
+    .service-list .service-item:not(:last-child) {
+        margin-bottom: 25px;
+    }
+    .container {
+        width: 320px;
+    }
+    .service-item {
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    .main-section {
+        padding-bottom: 57px;
+    }
+    .site-navigation {
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 30px;
+        margin-bottom: 94px;
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .main-paragraph {
+        max-width: 222px;
+    }
+    }
+    @media (min-width:768px) and (max-width:1023px) {
+    .container {
+        width: 768px;
+        }
+    .main-header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        height: 114px;
+        width: 660px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 114px;
+    }
+    header {
+        height: 700px;
+    }
+    .service-list .service-item:nth-last-child(-n+2) {
+        margin-bottom: 0;
+    }
+    .service-item {
+        width: 236px;
+    }
+    .main-title {
+        font-size: 52px;
+    }
+    .first-button {
+        width: 226px;
+    }
+    .main-section {
+        padding-bottom: 40px;
+    }
+    .service-title {
+        margin-bottom: 15px;
+    }
+    }
+    @media (min-width:1024px) {
+    .container {
+        width: 942px;
+    }
+    header {
+        height: 702px;
+    }
+    .main-header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        height: 114px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 114px;
+        }
+    .service-item {
+        margin-bottom: 0;
+    }
+    .main-title {
+        font-size: 52px;
+        }
+    .main-paragraph {
+        font-size: 24px;
+    }
+    .service-title {
+        margin-bottom: 35px;
+    }
+    .main-section {
+        padding-bottom: 40px;
+    }
+    }
