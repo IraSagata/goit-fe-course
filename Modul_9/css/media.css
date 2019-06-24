@@ -65,10 +65,10 @@
     }
     @media (min-width:1024px) {
     .container {
-        width: 942px;
+        width: 943px;
     }
     header {
-        height: 702px;
+        height: 700px;
     }
     .main-header {
         display: flex;
