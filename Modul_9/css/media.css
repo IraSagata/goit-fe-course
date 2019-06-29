@@ -2,7 +2,6 @@
     .service-list .service-item:not(:last-child) {
         margin-bottom: 25px;
     }
-    
     header {
         height: 540px;
     }
