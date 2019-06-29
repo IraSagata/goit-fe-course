@@ -2,9 +2,7 @@
     .service-list .service-item:not(:last-child) {
         margin-bottom: 25px;
     }
-    .container {
-        width: 320px;
-    }
+    
     header {
         height: 540px;
     }
@@ -32,9 +30,7 @@
     }
     }
     @media (min-width:768px) and (max-width:1023px) {
-    .container {
-        width: 768px;
-    }
+    
     .main-header {
         display: flex;
         flex-direction: row-reverse;
@@ -75,9 +71,6 @@
     }
     }
     @media (min-width:1024px) {
-    .container {
-        width: 943px;
-    }
     header {
         height: 700px;
     }
