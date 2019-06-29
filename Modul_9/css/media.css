@@ -5,6 +5,9 @@
     .container {
         width: 320px;
     }
+    header {
+        height: 540px;
+    }
     .service-item {
         margin-left: auto;
         margin-right: auto;
@@ -15,12 +18,14 @@
     .site-navigation {
         margin-right: auto;
         margin-left: auto;
-        padding-top: 30px;
+        padding-top: 20px;
         margin-bottom: 94px;
     }
-    h1 {
+    .site-logo {
+        display: block;
         text-align: center;
-        margin-bottom: 30px;
+        margin: 0 auto;
+        margin-bottom: 15px;
     }
     .main-paragraph {
         max-width: 222px;
@@ -29,7 +34,7 @@
     @media (min-width:768px) and (max-width:1023px) {
     .container {
         width: 768px;
-        }
+    }
     .main-header {
         display: flex;
         flex-direction: row-reverse;
@@ -44,23 +49,29 @@
     header {
         height: 700px;
     }
+    .section-header {
+        width: 510px;
+    }
+    .service-item {
+        margin-bottom: 40px;
+    }
     .service-list .service-item:nth-last-child(-n+2) {
         margin-bottom: 0;
     }
-    .service-item {
-        width: 236px;
-    }
     .main-title {
         font-size: 52px;
+    }
+    .main-paragraph {
+        font-size: 24px;
     }
     .first-button {
         width: 226px;
     }
     .main-section {
-        padding-bottom: 40px;
+        padding-bottom: 35px;
     }
     .service-title {
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
     }
     @media (min-width:1024px) {
@@ -69,6 +80,9 @@
     }
     header {
         height: 700px;
+    }
+    .section-header {
+        width: 510px;
     }
     .main-header {
         display: flex;
@@ -88,6 +102,9 @@
         }
     .main-paragraph {
         font-size: 24px;
+    }
+    .first-button {
+        width: 226px;
     }
     .service-title {
         margin-bottom: 35px;

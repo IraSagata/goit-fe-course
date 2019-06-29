@@ -30,52 +30,51 @@ header {
     text-align: center;
 }
 .site-navigation {
+    width: 200px;
     margin: 0;
-    padding: 0;
+    padding: 0 15px;
     list-style: none;
-    display: flex;
-    width: 160px;
     display: flex;
     justify-content: space-between;
     vertical-align: middle;
     align-content: center;
-    margin: 0;
-    padding: 0;
     list-style-type: none;
     position: relative;
 }
-.site-navigation-link {
-    box-sizing: border-box;
-    height: 36px;
+.main-item {
     width: 90px;
-    border: inherit;
+    text-align: center;
+    display: inline-block;
+    background: none;
     border: 2px solid transparent;
     border-radius: 22px;
     list-style-type: none;
-    cursor: pointer;
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
     font-size: 14px;
-    font-weight: 400;
+    height: 36px;
+    cursor: pointer;
     text-decoration: none;
-    color: #fff;
-    padding: 8px 16px;
-    text-align: center;
-    border-radius: 22px;
-}
-.main-item {
     flex-shrink: 0;
 }
 .first-link:hover,
 .second-link:hover{
     border: 2px solid #fff;
+    border-radius: 22px;
+    text-decoration: none;
+    color: #fff;
 }
 .section-header {
     text-align: center;
+    margin: 0 auto;
+    width: 294px;
 }
 .main-title {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     text-align: center
 }
 .main-paragraph {
@@ -89,14 +88,14 @@ header {
 }
 .first-button {
     font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
     height: 44px;
     width: 280px;
     background-color: #ff4e50;
     border-radius: 20px;
     border: none;
     color: #fff;
-    font-size: 14px;
-    font-weight: 700;
     cursor: pointer;
     text-align: center;
     margin: 0 auto;
@@ -104,6 +103,8 @@ header {
 /*main*/
 .service-item {
     text-align: center;
+    border: none;
+    width: 228px;
 }
 .service-title {
     font-family: "Montserrat", sans-serif;;
@@ -118,7 +119,7 @@ header {
     height: 122px;
     margin: 0 auto;
 }
-.service-item div {
+.service-item .icons {
     position: relative;
     margin: 0 auto;
     box-sizing: border-box;
@@ -126,7 +127,7 @@ header {
     width: 122px;
     height: 122px;   
 }
-.service-item div::before {
+.service-item .icons::before {
     content: '';
     display: inline-block;
     width: 32px;
@@ -156,6 +157,10 @@ header {
 .telegram::before {
     background-image: url(../img/icons/icon4.png);
     background-color:#4e73db;
+}
+.service-item-header-wrapper {
+    width: 228px;
+    margin: 0 auto;
 }
 .item-title {
     padding-top: 20px;
